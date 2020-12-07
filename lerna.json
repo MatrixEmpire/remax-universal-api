@@ -1,0 +1,11 @@
+{
+    "packages": ["packages/*", "e2e/*", "website"],
+    "version": "0.0.0",
+    "command": {
+        "publish": {
+            "conventionalCommits": true
+        }
+    },
+    "npmClient": "yarn",
+    "useWorkspaces": true
+}
