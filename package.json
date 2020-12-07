@@ -39,6 +39,7 @@
         "lint": "eslint \"packages/*/src/**/*.{ts,tsx}\"",
         "release": "lerna publish --force-publish --exact",
         "test": "lerna run --ignore babel-preset-remax --ignore website --ignore e2e-* --stream test",
+        "test:cov": "lerna run --ignore babel-preset-remax --ignore website --ignore e2e-* --stream test -- --collect-coverage",
         "c": "git-cz"
     },
     "workspaces": [
